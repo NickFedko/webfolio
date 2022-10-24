@@ -1,0 +1,50 @@
+@import './font.css';
+.intro {
+  display: flex;
+  flex-direction: row;
+  font-family: "Epilogue";
+  justify-content: space-between;
+}
+.intro .intro__info {
+  margin-left: 5%;
+  margin-top: 5%;
+  text-align: left;
+  width: 45%;
+}
+.intro .intro__info h1 {
+  font-size: 72px;
+}
+.intro .intro__info p {
+  font-size: 22px;
+}
+.intro .intro__info button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 69px;
+  width: 200px;
+  font-size: 18px;
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 32px;
+}
+.intro .intro__info button img {
+  margin-left: 20px;
+}
+.intro .intro__info .intro__awards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 16%;
+}
+.intro .intro__info .intro__awards img {
+  width: 64px;
+  height: 64px;
+}
+.intro .intro__info .intro__awards p {
+  margin-left: 16px;
+  font-size: 18px;
+}
+.intro .intro__info .intro__awards p:nth-child(2) {
+  font-size: 15px;
+}/*# sourceMappingURL=intro.css.map */

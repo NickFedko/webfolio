@@ -1,0 +1,47 @@
+@import './font.css';
+.services {
+  padding: 60px;
+  font-family: "Epilogue";
+  color: white;
+  background: #010032;
+  text-align: left;
+}
+.services p:nth-child(1) {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.services h2 {
+  font-size: 48px;
+}
+.services .services__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.services .services__row .services__column:nth-child(1) img {
+  margin-top: 30px;
+}
+.services .services__row .services__column:nth-child(1) img, .services .services__row .services__column:nth-child(1) p, .services .services__row .services__column:nth-child(1) h3 {
+  margin-left: 80px;
+}
+.services .services__row .services__column {
+  width: 40%;
+}
+.services .services__row .services__column h3 {
+  font-size: 24px;
+  width: 300px;
+}
+.services .services__row .services__column p {
+  font-size: 18px;
+  max-width: 270px;
+}
+.services .services__row .services__column button {
+  margin-top: 100px;
+  width: 272px;
+  height: 69px;
+  border-radius: 32px;
+  font-family: "Epilogue";
+  font-size: 18px;
+  border: none;
+}/*# sourceMappingURL=services.css.map */

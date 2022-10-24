@@ -1,0 +1,18 @@
+@import './font.scss';
+
+.nav {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Epilogue';
+    padding: 20px;
+    .nav__body {
+        display: flex;
+        justify-content: space-between;
+        a {
+            margin-right: 20px;
+        }
+    }
+}
