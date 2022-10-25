@@ -1,0 +1,45 @@
+@import './font.css';
+
+.shop {
+    font-family: 'Epilogue';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p:nth-child(1) {
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+        color: #4543E8;
+    }
+    h2 {
+        font-size: 48px;
+    }
+    button {
+        margin: 20px;
+        border: none; 
+        color: #4543E8;
+        font-size: 18px;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 2px solid rgba(69, 67, 232, 0.2);
+    }
+    .shop__row {
+        margin-top: 80px;
+        display:  flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        text-align: left;
+        .shop__column {
+            margin: 20px;
+            p {
+                font-size: 24px;
+            }
+            p:nth-child(3) {
+                font-size: 18px;
+            }
+        }
+    }
+}

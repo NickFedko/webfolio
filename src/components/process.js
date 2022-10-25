@@ -1,3 +1,5 @@
+import arrow from '../assets/images/IMAGE(18).png';
+import '../assets/styles/process.css'
 
 export default function Process() {
     return (
@@ -9,12 +11,12 @@ export default function Process() {
             </div>
             <div className="process__row">
                 <div className="process__column">    
-                    <p>[1]</p>
+                    <p>[1] <img src={arrow} /></p>
                     <h3>Listen</h3>
                     <p>I get to know you and your company, your goals and expectations.</p>
                 </div>
                 <div className="process__column">    
-                    <p>[2]</p>
+                    <p>[2] <img src={arrow} /></p>
                     <h3>Ideate</h3>
                     <p>I create a couple of pitches based on the project brief and goals.</p>
                 </div><div className="process__column">    

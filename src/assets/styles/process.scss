@@ -1,0 +1,51 @@
+@import './font.css';
+
+.process {
+    font-family: 'Epilogue';
+    padding: 40px;
+    p {
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+        color: #4543E8;
+        text-align: left;
+    }
+    .process__text {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        h2 {
+            width: 40%;
+            font-size:60px;
+            text-align: left;
+            line-height: 50px;
+        }
+        p {
+            width: 40%;
+            font-size: 22px;
+            color:black;
+            line-height: 34px;
+        }
+    }
+    .process__row {
+        display: flex;
+        text-align: left;
+        .process__column {
+            margin: 40px;
+            p:nth-child(1) {
+                font-size: 48px;
+                color: #4543E8;
+                img {
+                    margin-left: 120px;
+                }
+            }
+            h3 {
+                font-size: 24px;
+            }
+            p {
+                font-size: 12px;
+                color: black;
+            }
+        }
+    }
+}

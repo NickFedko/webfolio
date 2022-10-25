@@ -1,0 +1,49 @@
+@import './font.css';
+.process {
+  font-family: "Epilogue";
+  padding: 40px;
+}
+.process p {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #4543E8;
+  text-align: left;
+}
+.process .process__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.process .process__text h2 {
+  width: 40%;
+  font-size: 60px;
+  text-align: left;
+  line-height: 50px;
+}
+.process .process__text p {
+  width: 40%;
+  font-size: 22px;
+  color: black;
+  line-height: 34px;
+}
+.process .process__row {
+  display: flex;
+  text-align: left;
+}
+.process .process__row .process__column {
+  margin: 40px;
+}
+.process .process__row .process__column p:nth-child(1) {
+  font-size: 48px;
+  color: #4543E8;
+}
+.process .process__row .process__column p:nth-child(1) img {
+  margin-left: 120px;
+}
+.process .process__row .process__column h3 {
+  font-size: 24px;
+}
+.process .process__row .process__column p {
+  font-size: 12px;
+  color: black;
+}/*# sourceMappingURL=process.css.map */
