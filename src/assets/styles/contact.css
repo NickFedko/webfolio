@@ -1,0 +1,33 @@
+@import './font.css';
+.contact {
+  padding: 40px;
+  text-align: left;
+  color: white;
+  background: #010032;
+  font-family: "Epilogue";
+}
+.contact p {
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.contact h2 {
+  font-size: 60px;
+}
+.contact .contact__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.contact .contact__nav a {
+  text-decoration: none;
+  color: white;
+}
+.contact .contact__nav .contact__column {
+  display: flex;
+  flex-direction: column;
+}
+.contact .contact__nav .contact__column a {
+  margin: 5px;
+  text-decoration: none;
+}/*# sourceMappingURL=contact.css.map */

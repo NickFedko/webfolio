@@ -7,6 +7,9 @@ import Services from './components/services';
 import Testimonials from './components/testimonials';
 import Process from './components/process';
 import Shop from './components/shop';
+import Blog from './components/blog';
+import Info from './components/info';
+import Contact from './components/contact';
 
 function App() {
   return (
@@ -22,7 +25,12 @@ function App() {
         <Testimonials />
         <Process />
         <Shop/>
+        <Blog />
+        <Info />
       </main>
+      <footer>
+        <Contact />
+      </footer>
     </div>
   );
 }

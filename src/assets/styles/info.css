@@ -1,0 +1,39 @@
+@import './font.css';
+.info {
+  display: flex;
+  color: white;
+  font-family: "Epilogue";
+}
+.info .info__block:nth-child(1) {
+  background: url("../images/IMAGE(27).png");
+}
+.info .info__block:nth-child(2) {
+  background-color: #4543E8;
+}
+.info .info__block:nth-child(2) p {
+  width: 75%;
+}
+.info .info__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 50%;
+}
+.info .info__block h2 {
+  font-size: 24px;
+}
+.info .info__block button {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-bottom: rgba(255, 255, 255, 0.7);
+}
+.info .info__block button img {
+  margin-left: 20px;
+}/*# sourceMappingURL=info.css.map */

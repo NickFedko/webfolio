@@ -1,0 +1,60 @@
+@import './font.css';
+
+.blog {
+    padding: 40px;
+    text-align: left;
+    font-family: 'Epilogue';
+    p:nth-child(1) {
+        color: #4543E8;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    .blog__post {
+        display: flex;
+        justify-content: space-between;
+        h2 {
+            width: 60%;
+            font-size: 56px;
+        }
+        button {
+            margin-top: 60px;
+            border: 2px solid #4543E8;
+            display: flex;
+            align-items: center;
+            background-color: white;
+            color: #4543E8;
+            font-size: 18px;
+            height: 42px;
+            padding: 30px;
+            border-radius: 32px;
+        }
+    }
+    .blog__row {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        button {
+            display: flex;
+            align-items: center;
+            color:#4543E8;
+            font-size: 18px;
+            border: none;
+            background-color: transparent;
+            border-bottom: 2px solid lightgray;
+            height: 52px;
+            img {
+                margin-left: 20px;
+            }
+        }
+        .blog__text {
+            h3 {
+                font-size: 24px;
+                width: 500px;
+            }
+            p:nth-child(3) {
+                font-size: 12px;
+                width: 500px;
+            }
+        }
+    }
+}

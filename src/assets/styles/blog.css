@@ -1,0 +1,57 @@
+@import './font.css';
+.blog {
+  padding: 40px;
+  text-align: left;
+  font-family: "Epilogue";
+}
+.blog p:nth-child(1) {
+  color: #4543E8;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.blog .blog__post {
+  display: flex;
+  justify-content: space-between;
+}
+.blog .blog__post h2 {
+  width: 60%;
+  font-size: 56px;
+}
+.blog .blog__post button {
+  margin-top: 60px;
+  border: 2px solid #4543E8;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: #4543E8;
+  font-size: 18px;
+  height: 42px;
+  padding: 30px;
+  border-radius: 32px;
+}
+.blog .blog__row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.blog .blog__row button {
+  display: flex;
+  align-items: center;
+  color: #4543E8;
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid lightgray;
+  height: 52px;
+}
+.blog .blog__row button img {
+  margin-left: 20px;
+}
+.blog .blog__row .blog__text h3 {
+  font-size: 24px;
+  width: 500px;
+}
+.blog .blog__row .blog__text p:nth-child(3) {
+  font-size: 12px;
+  width: 500px;
+}/*# sourceMappingURL=blog.css.map */
